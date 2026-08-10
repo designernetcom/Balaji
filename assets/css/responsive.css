@@ -1865,7 +1865,16 @@
 
   .about-one__content {
     margin-left: 0px;
-    margin-top: 60px;
+    margin-top: 10px;
+  }
+  .about-one__img img {
+    margin-top: 50px;
+  }
+  .footer-widget__single-about .logo-box img {
+    width: 100px;
+  }
+  .google-reviews {
+    margin-top: 30px;
   }
 
   .about-one .shape4 {
