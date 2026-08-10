@@ -8206,9 +8206,10 @@ Feature Three
 .feature-three {
   position: relative;
   display: block;
-  padding: 120px 0px 240px;
+  padding: 0 0px;
   overflow: hidden;
   z-index: 1;
+  background: black;
 }
 
 .feature-three .shape1 {
@@ -8266,7 +8267,7 @@ Feature Three
 .feature-three__inner {
   position: relative;
   display: block;
-  background: #ffffff;
+  /* background: #ffffff; */
   box-shadow: 0px 10px 60px 0px rgb(0, 0, 0, 0.07);
   padding: 50px 0px 42px;
   overflow: hidden;
@@ -8303,7 +8304,7 @@ Feature Three
   position: relative;
   display: inline-block;
   color: #ffffff;
-  font-size: 50px;
+  font-size: 30px;
   transition: all 500ms linear;
   transition-delay: 0.1s;
   transform: scale(1);
@@ -8327,7 +8328,7 @@ Feature Three
 }
 
 .feature-three__single .title-box h2 a {
-  color: var(--thm-black);
+  color: #fff;
   transition: all 200ms linear;
   transition-delay: 0.1s;
 }
@@ -14828,7 +14829,7 @@ End Css
 
 .google-reviews__cta a:hover {
   background-color: var(--thm-base);
-  color: var(--thm-black);
+  color: #fff;
 }
 
 /* Icon-enhanced info items */
@@ -15077,4 +15078,9 @@ End Css
 }
 .about-three--redesigned .stat-card:hover .stat-card__label p {
   color: white;
+}
+.testimonial-two .owl-carousel .owl-nav button.owl-prev,
+.testimonial-two .owl-carousel .owl-nav button.owl-next {
+  background: var(--thm-base);
+  color: rgb(255, 255, 255);
 }
