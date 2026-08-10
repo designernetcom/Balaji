@@ -12582,7 +12582,7 @@ About Three
 .about-three__content-bottom {
   position: relative;
   display: block;
-  background: #ffffff;
+  /* background: #ffffff; */
   padding: 40px 0px 34px;
   overflow: hidden;
   /* margin-left: -340px;
@@ -14896,7 +14896,7 @@ End Css
 /* ========== Section Base ========== */
 .about-three--redesigned {
   position: relative;
-  padding: 100px 0;
+  padding: 50px 0;
   overflow: hidden;
 }
 
@@ -14929,7 +14929,7 @@ End Css
 /* ========== Stats List ========== */
 .about-three--redesigned .stats-list {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
   gap: 24px;
   list-style: none;
@@ -14939,12 +14939,13 @@ End Css
 
 /* ========== Stat Card ========== */
 .about-three--redesigned .stat-card {
-  flex: 1 1 220px;
-  max-width: 270px;
-  background: rgba(255, 255, 255, 0.03);
+  /* flex: 1 1 220px; */
+  width: 100%;
+  /* background: rgba(255, 255, 255, 0.03); */
+  background: white;
   border: 1px solid rgba(208, 173, 25, 0.12);
   border-radius: 14px;
-  padding: 45px 24px 40px;
+  padding: 25px;
   text-align: center;
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   position: relative;
@@ -14979,8 +14980,8 @@ End Css
 
 /* ========== Icon ========== */
 .stat-card__icon {
-  width: 72px;
-  height: 72px;
+  width: 50px;
+  height: 50px;
   margin: 0 auto 22px;
   display: flex;
   align-items: center;
@@ -15003,7 +15004,7 @@ End Css
 /* ========== Number ========== */
 .stat-card__number h2 {
   font-family: var(--thm-font);
-  font-size: 44px;
+  font-size: 27px;
   font-weight: 700;
   color: #00000096;
   line-height: 1;
@@ -15023,7 +15024,7 @@ End Css
 /* ========== Label ========== */
 .stat-card__label p {
   font-family: var(--thm-font);
-  font-size: 15px;
+  font-size: 14px;
   color: var(--thm-gray);
   text-transform: uppercase;
   letter-spacing: 1.5px;
@@ -15070,4 +15071,10 @@ End Css
 .dropdown a i {
   margin-left: 5px;
   margin-top: 5px;
+}
+.about-three--redesigned .stat-card:hover .stat-card__number h2 {
+  color: white;
+}
+.about-three--redesigned .stat-card:hover .stat-card__label p {
+  color: white;
 }
