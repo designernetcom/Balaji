@@ -1683,7 +1683,7 @@ animation: spinner 1s infinite linear;
   transition: all 200ms linear;
   transition-delay: 0.1s;
   z-index: 1;
-  display: none;
+  /* display: none; */
 }
 
 .main-menu .main-menu__list > li.current.dropdown > a:before,
@@ -15083,4 +15083,10 @@ End Css
 .testimonial-two .owl-carousel .owl-nav button.owl-next {
   background: var(--thm-base);
   color: rgb(255, 255, 255);
+}
+@media (max-width: 767px) {
+  .logo-box-one a img {
+    width: 80px;
+    height: 80px;
+  }
 }
